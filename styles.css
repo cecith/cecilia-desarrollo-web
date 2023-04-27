@@ -1,0 +1,240 @@
+/* Estilos de lista */
+li {
+  display: inline;
+}
+li a:hover {
+  background-color: rgb(243, 219, 219);
+}
+
+
+/* Estilos de encabezado */
+header {
+  background-color: #bcb2ac;
+  padding: 20px;
+  text-align: center;
+}
+.titulo {
+  font-size: 24px;
+  color: black;
+  margin: 0 auto;
+}
+header {
+  background-image: url(Imagen-header.jpg);
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+
+/* Estilos de navegación */
+nav {
+  background-color: #B2B2BE;
+  padding: 20px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Estilos de sección de galería */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.video-section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.video-section video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+/* Estilos de artículo y aside */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article {
+  flex: 70%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #B2B2BE;
+}
+
+section {
+  margin-bottom: 50px; 
+  margin-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+aside {
+  flex: 25%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #B2B2BE;
+}
+
+/* Estilos de encabezados y párrafos */
+h1 {
+  font-weight: bold;
+  font-size: large;
+  color: #292927;
+  margin: 1px;
+  border: 5px;
+  border-width: 5px;
+  border-color: #2b2323;
+  margin-left: 2px;
+}
+h2 {
+  font-weight: bold;
+  font-size: medium;
+  color: #292927;
+  text-align: center;
+}
+h3 {
+  font-weight: lighter;
+  font-size: medium;
+  color: #292927;
+  font-style: italic;
+}
+h4 {
+  font-weight: bold;
+  font-size: smaller;
+  color: #292927;
+  font-style: italic;
+  text-align: right;
+}
+p {
+  color: grey;
+  font-size: medium;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Estilos de cuerpo y pie de página */
+body {
+  background-color: #F8F8F8;
+}
+footer {
+  background-color: #d8c8be;
+  color: black;
+  text-align: left;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+.pie {
+  font-size: 17px;
+  color: black;
+  margin: 0 auto;
+}
+
+/* Estilos de botón */
+button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #292522;
+  color: black;
+  text-align: center;
+  font-size: 20px
+}
+
+/* Estilos específicos para la página de Productos */
+
+.section1 {
+  text-align: center;
+}
+
+.section1 p {
+  margin-bottom: 5;
+}
+
+.section1 div {
+  margin-bottom: 100px;
+}
+
+.section1 .fa {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos específicos para la página de Ejemplos */
+
+.ejemplos-webs iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* Estilos para pantallas pequeñas (hasta 767px de ancho) */
+@media (max-width: 767px) {
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para pantallas medianas (entre 768px y 991px de ancho) */
+@media (min-width: 768px) and (max-width: 991px) {
+  iframe {
+    width: 50%;
+    height: 500px;
+  }
+}
+
+/* Estilos para pantallas grandes (más de 992px de ancho) */
+@media (min-width: 992px) {
+  iframe {
+    width: 50%;
+    height: 500px;
+  }
+}
